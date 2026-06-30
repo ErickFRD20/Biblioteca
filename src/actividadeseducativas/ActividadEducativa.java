@@ -55,7 +55,15 @@ Usuario usuarioInscrito;
         this.usuarioInscrito = usuarioInscrito;
     }
 
-   
+    public int cupoDisp(){
+        for (int i = 0; i < cupoMax.length; i++) {
+            if (cupoDisp() == i) {
+                
+                
+            }
+        }
+    return -1;
+    }
     
     
     public ActividadEducativa(TipoActividades nombreActividad, LocalDate fecha, LocalDate hora, int[] cupoMax, Usuario usuarioInscrito) {
