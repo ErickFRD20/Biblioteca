@@ -58,7 +58,7 @@ Usuario usuarioInscrito;
     public int cupoDisp(){
         for (int i = 0; i < cupoMax.length; i++) {
             if (cupoDisp() == i) {
-                
+            
                 
             }
         }
