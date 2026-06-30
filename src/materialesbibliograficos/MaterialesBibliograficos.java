@@ -58,7 +58,14 @@ public class MaterialesBibliograficos {
         this.categoria = categoria;
         this.Estado = Estado;
     }
-}
+    @Override
+    public String toString() {
+        return "MaterialesBibliograficos{" + "Codigo=" + codigo + "Titulo=" + titulo + "Autor=" + autor 
+               + "Año Publicacion=" + añoPublicacion + "Categoria=" + categoria + "Estado=" + Estado + "}";
+    }
+    }
+
+
    
 
     
